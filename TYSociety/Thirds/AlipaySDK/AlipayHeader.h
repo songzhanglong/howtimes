@@ -1,0 +1,24 @@
+//
+//  AlipayHeader.h
+//  TYSociety
+//
+//  Created by szl on 16/8/7.
+//  Copyright © 2016年 szl. All rights reserved.
+//
+
+#ifndef AlipayHeader_h
+#define AlipayHeader_h
+
+#define PartnerID       @"2088421597446640"         //商户在支付宝签约时，支付宝为商户分配的唯一标识号(以2088开头的16位纯数字)
+#define SellerID        @"2088421597446640"         //卖家支付宝账号对应的支付宝唯一用户号(以2088开头的16位纯数字),订单支付金额将打入该账户,一个partner可以对应多个seller_id。
+
+//商户私钥，自助生成
+#define PartnerPrivKey  @"MIICWwIBAAKBgQDJ4Vg27juelpSNIhS4jb7jT2YIibpgvbFI8oDV2m/p/08WD6brZkYOK3IUcoTKAYRaeqqqk2sk/6LtGbR5wf2UsAGQuEqjLKM6hVQGbRTBp7MxKkTJPTPk8ylN9Va+cxvbJMqYjPF/m0FuNMqRCx2QzcjpVO9KMTHmqjmjyx16TQIDAQABAoGAfHHz3hCnIdBzDDj5Cvcdt6PHIvY7tMzaTzxl3O4FVPpz9wZ4/90QzEVN0nrxjlC3FMtPD01GnA0VkxDoZrIFrRy0sNl4SJ9AHYZazZACP8MmyyeL0pxLhqywVBNgZfgxsfLAubs1HTs438m6y571zL6ULr5wfcaq5mVmJrj4MQUCQQDxd/CwsVWhDSjEbW19Wz22vVAWLHoMMOv6vnmZc1cvCKPM32eFnYVGaBwUBF2PgWUMi9Cbp6AnN2/8fYXJc8JrAkEA1geCHnesSIGxEFSSq6fzhfQysbdn+VES3HP5miTuEJC/Qidmj/ADH/E/m6wuFeBlCXqBHlGN+Opa5XHF8X+UJwJAFzc95+8U2YgnXENdHIlSNKic85TRIyzs802u6UcCod4FyaPNEzai4rMNyArnZ+275mnm46BJMJwO40q6OzUrAwI/WkrQmgnipLQR/tGvDrvMALcEq/Sz6HpLerVyl5T82gA2r7Hvksmuh8s/Cm2ZA6Gm/liwIBpHyrsTnbhhyYAJAkEAnmyaPtY3GVYWNMTs0kH51YicD1tkVmdt6gyE+uMtJbIuYXxy66QSgOpVNrXRIrKVJjhbOZXOz5pVdFAGsN2EhA=="
+//pkcs8格式RSA私钥
+#define PartnerPrivKeyPKCS8  @"MIICdQIBADANBgkqhkiG9w0BAQEFAASCAl8wggJbAgEAAoGBAMnhWDbuO56WlI0iFLiNvuNPZgiJumC9sUjygNXab+n/TxYPputmRg4rchRyhMoBhFp6qqqTayT/ou0ZtHnB/ZSwAZC4SqMsozqFVAZtFMGnszEqRMk9M+TzKU31Vr5zG9skypiM8X+bQW40ypELHZDNyOlU70oxMeaqOaPLHXpNAgMBAAECgYB8cfPeEKch0HMMOPkK9x23o8ci9ju0zNpPPGXc7gVU+nP3Bnj/3RDMRU3SevGOULcUy08PTUacDRWTEOhmsgWtHLSw2XhIn0AdhlrNkAI/wybLJ4vSnEuGrLBUE2Bl+DGx8sC5uzUdOzjfybrLnvXMvpQuvnB9xqrmZWYmuPgxBQJBAPF38LCxVaENKMRtbX1bPba9UBYsegww6/q+eZlzVy8Io8zfZ4WdhUZoHBQEXY+BZQyL0JunoCc3b/x9hclzwmsCQQDWB4Ied6xIgbEQVJKrp/OF9DKxt2f5URLcc/maJO4QkL9CJ2aP8AMf8T+brC4V4GUJeoEeUY346lrlccXxf5QnAkAXNz3n7xTZiCdcQ10ciVI0qJzzlNEjLOzzTa7pRwKh3gXJo80TNqLisw3ICudn7bvmaebjoEkwnA7jSro7NSsDAj9aStCaCeKktBH+0a8Ou8wAtwSr9LPoekt6tXKXlPzaADavse+Sya6Hyz8KbZkDoab+WLAgGkfKuxOduGHJgAkCQQCebJo+1jcZVhY0xOzSQfnViJwPW2RWZ23qDIT64y0lsi5hfHLrpBKA6lU2tdEispUmOFs5lc7PmlV0UAaw3YSE"
+//支付宝公钥
+#define AlipayPubKey    @"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDJ4Vg27juelpSNIhS4jb7jT2YIibpgvbFI8oDV2m/p/08WD6brZkYOK3IUcoTKAYRaeqqqk2sk/6LtGbR5wf2UsAGQuEqjLKM6hVQGbRTBp7MxKkTJPTPk8ylN9Va+cxvbJMqYjPF/m0FuNMqRCx2QzcjpVO9KMTHmqjmjyx16TQIDAQAB"
+#define MD5_KEY         @"u7bl6q0d0w6fzbbbdd1h6ki88pwn1tbc"         //安全校验码（MD5）秘钥，以数字和字母组成的32位字符
+
+
+#endif /* AlipayHeader_h */

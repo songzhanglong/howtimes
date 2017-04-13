@@ -1,0 +1,90 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - CSStickyHeaderFlowLayout (0.2.10)
+  - JSONModel (1.2.0)
+  - JSPatch (0.1.5):
+    - JSPatch/Core (= 0.1.5)
+  - JSPatch/Core (0.1.5)
+  - Masonry (0.6.4)
+  - MJRefresh (3.1.0)
+  - OMGHTTPURLRQ (2.1.3):
+    - OMGHTTPURLRQ/RQ (= 2.1.3)
+  - OMGHTTPURLRQ/FormURLEncode (2.1.3)
+  - OMGHTTPURLRQ/RQ (2.1.3):
+    - OMGHTTPURLRQ/FormURLEncode
+    - OMGHTTPURLRQ/UserAgent
+  - OMGHTTPURLRQ/UserAgent (2.1.3)
+  - PromiseKit (1.6.0):
+    - PromiseKit/CALayer (= 1.6.0)
+    - PromiseKit/NSNotificationCenter (= 1.6.0)
+    - PromiseKit/NSURLConnection (= 1.6.0)
+    - PromiseKit/Pause (= 1.6.0)
+    - PromiseKit/UIActionSheet (= 1.6.0)
+    - PromiseKit/UIAlertView (= 1.6.0)
+    - PromiseKit/UIView (= 1.6.0)
+    - PromiseKit/UIViewController (= 1.6.0)
+    - PromiseKit/Until (= 1.6.0)
+    - PromiseKit/When (= 1.6.0)
+  - PromiseKit/CALayer (1.6.0):
+    - PromiseKit/Promise
+  - PromiseKit/NSNotificationCenter (1.6.0):
+    - PromiseKit/Promise
+  - PromiseKit/NSURLConnection (1.6.0):
+    - OMGHTTPURLRQ (~> 2.1)
+    - PromiseKit/Promise
+  - PromiseKit/Pause (1.6.0):
+    - PromiseKit/Promise
+  - PromiseKit/Promise (1.6.0)
+  - PromiseKit/UIActionSheet (1.6.0):
+    - PromiseKit/Promise
+  - PromiseKit/UIAlertView (1.6.0):
+    - PromiseKit/Promise
+  - PromiseKit/UIView (1.6.0):
+    - PromiseKit/Promise
+  - PromiseKit/UIViewController (1.6.0):
+    - PromiseKit/Promise
+  - PromiseKit/Until (1.6.0):
+    - PromiseKit/Promise
+    - PromiseKit/When
+  - PromiseKit/When (1.6.0):
+    - PromiseKit/Promise
+  - RMPZoomTransitionAnimator (1.0.2)
+
+DEPENDENCIES:
+  - AFNetworking
+  - CSStickyHeaderFlowLayout
+  - JSONModel
+  - JSPatch
+  - Masonry
+  - MJRefresh
+  - PromiseKit
+  - RMPZoomTransitionAnimator
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  CSStickyHeaderFlowLayout: 5366582779d8b7c9ba9b9cc729c218cc23888776
+  JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
+  JSPatch: 405b5f5990643e6717dd6715ac60d6a2b582a6ba
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  OMGHTTPURLRQ: c4268dea4295b585d711055dbcd87bfa82badd5f
+  PromiseKit: 6be651503d4af22830b5313be993c5a0ef77bf77
+  RMPZoomTransitionAnimator: fa1a0726e8e227069d9d63d30ef403aa12323960
+
+PODFILE CHECKSUM: 084096f0b578d86c8e6652d7829ede4c8dec5905
+
+COCOAPODS: 1.0.1

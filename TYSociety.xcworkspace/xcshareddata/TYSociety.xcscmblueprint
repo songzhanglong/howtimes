@@ -1,0 +1,35 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "b1e00308-1477-11e4-91ed-9fe9802c344e++5056",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "b1e00308-1477-11e4-91ed-9fe9802c344e++4011" : {
+
+    },
+    "b1e00308-1477-11e4-91ed-9fe9802c344e++5056" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "b1e00308-1477-11e4-91ed-9fe9802c344e++4011" : 0,
+    "b1e00308-1477-11e4-91ed-9fe9802c344e++5056" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9CF63901-3592-4D84-AC9B-92E197861891",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "b1e00308-1477-11e4-91ed-9fe9802c344e++4011" : "%E7%AB%A5%E5%8D%B0%E7%A4%BE%E4%BC%9A%E7%89%88\/",
+    "b1e00308-1477-11e4-91ed-9fe9802c344e++5056" : "%E5%A5%BD%E6%97%B6%E5%85%89\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TYSociety",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TYSociety.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/121.199.37.92\/svn",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b1e00308-1477-11e4-91ed-9fe9802c344e++4011"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/121.199.37.92\/svn",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b1e00308-1477-11e4-91ed-9fe9802c344e++5056"
+    }
+  ]
+}
